@@ -12,6 +12,8 @@ import useGlobalStyles from '../../globalStyle.js';
 // >> Images
 import contact from '../../../public/icons/contact.png';
 import whiteDiscord from '../../../public/icons/whiteDiscord.svg';
+import whiteFacebook from '../../../public/icons/whiteFacebook.svg';
+import whiteMail from '../../../public/icons/whiteMail.svg';
 
 //Script
 function ContactUs(props) {
@@ -181,7 +183,7 @@ function ContactUs(props) {
 											rel="noreferrer"
 										>
 											<Image
-												src={whiteDiscord}
+												src={whiteMail}
 												alt=""
 												layout="responsive"
 												objectFit="contain"
@@ -202,7 +204,7 @@ function ContactUs(props) {
 											rel="noreferrer"
 										>
 											<Image
-												src={whiteDiscord}
+												src={whiteFacebook}
 												alt=""
 												layout="responsive"
 												objectFit="contain"

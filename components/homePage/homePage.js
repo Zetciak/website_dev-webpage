@@ -41,10 +41,7 @@ function HomePage(props) {
 					content="Tworzymy nowoczesne strony internetowe dostosowane pod twoje oczekiwania. Dwuosobowy zespół grafika oraz programisty zaprasza do kontaktu."
 				/>
 
-				<meta
-					property="og:url"
-					content="https://zetty-webdev.vercel.app/"
-				/>
+				<meta property="og:url" content="https://website-dev.pl/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Web-Dev" />
 				<meta
@@ -57,13 +54,10 @@ function HomePage(props) {
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta
-					property="twitter:domain"
-					content="zetty-webdev.vercel.app"
-				/>
+				<meta property="twitter:domain" content="website-dev.pl" />
 				<meta
 					property="twitter:url"
-					content="https://zetty-webdev.vercel.app/"
+					content="https://website-dev.pl/"
 				/>
 				<meta name="twitter:title" content="Web-Dev" />
 				<meta
