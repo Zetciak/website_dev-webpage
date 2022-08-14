@@ -12,6 +12,30 @@ const useGlobalStyles = makeStyles({
 		background: 'url(https://i.imgur.com/rDrCN72.png)',
 	},
 
+	pageLoader: {
+		width: '100%',
+		height: '100%',
+		position: 'fixed',
+		background: '#000000aa',
+		'z-index': '6',
+		top: '0',
+		left: '0',
+		pointerEvents: 'none',
+	},
+
+	pageLoaderTransition: {
+		transition: 'opacity .7s',
+	},
+
+	loading: {
+		position: 'fixed',
+		width: '160px',
+		height: 'auto',
+		left: '50%',
+		top: '50%',
+		transform: 'translate(-50%,-50%)',
+	},
+
 	borderText: {
 		width: '910px',
 		margin: '0 auto',

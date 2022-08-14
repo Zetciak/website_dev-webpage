@@ -34,14 +34,16 @@ function Landing(props) {
 		<div className={styles.mainDiv}>
 			<div className={styles.insideDiv}>
 				<div className={styles.leftDiv}>
-					<Image
-						src={textLogo}
-						alt=""
-						layout="responsive"
-						objectFit="contain"
-						quality={100}
-						priority={true}
-					/>
+					<a href=".">
+						<Image
+							src={textLogo}
+							alt=""
+							layout="responsive"
+							objectFit="contain"
+							quality={100}
+							priority={true}
+						/>
+					</a>
 				</div>
 				<div className={styles.centerDiv}>
 					<Typography className={styles.oneNavigationElement}>

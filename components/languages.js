@@ -150,6 +150,14 @@ const Languages = {
 			clickCopy: 'Kliknij aby skopiować',
 			clickCopyCopied: 'Skopiowano!',
 		},
+
+		['404']: {
+			borderTitle: 'ERROR 404',
+			mainTitle: 'Strona nie została',
+			mainTitleGreen: 'znaleziona!',
+			mainDesc:
+				'Strona na którą próbujesz wejść nie istnieje, wróć na stronę główną!',
+		},
 	},
 
 	['ENG']: {
@@ -295,6 +303,14 @@ const Languages = {
 			clickOpen: 'Click to open',
 			clickCopy: 'Click to copy',
 			clickCopyCopied: 'Copied!',
+		},
+
+		['404']: {
+			borderTitle: 'ERROR 404',
+			mainTitle: 'This page does',
+			mainTitleGreen: 'not exist!',
+			mainDesc:
+				'The page you are trying to access does not exist, please go back to the main page!',
 		},
 	},
 };

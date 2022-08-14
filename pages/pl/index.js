@@ -7,10 +7,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 // >> Styles
-import useGlobalStyles from '../components/globalStyle';
+import useGlobalStyles from '../../components/globalStyle';
 
 // >> Pages
-import HomePage from '../components/homePage/homePage.js';
+import HomePage from '../../components/homePage/homePage.js';
 
 export default function Home() {
 	// >> Style
@@ -23,13 +23,6 @@ export default function Home() {
 	// >> Functions
 	useEffect(() => {
 		Aos.init({ duration: 700 });
-
-		let lang = navigator.language || navigator.userLanguage;
-		if (lang === 'pl-PL') {
-			setLang('PL');
-		} else {
-			setLang('ENG');
-		}
 
 		fetch('https://jsonplaceholder.typicode.com/posts/1').then(() => {
 			setLoading(false);

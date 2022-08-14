@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 import useGlobalStyles from '../components/globalStyle';
 
 // >> Pages
-import HomePage from '../components/homePage/homePage.js';
+import Page404 from '../components/404/page404.js';
 
 export default function Home() {
 	// >> Style
@@ -36,14 +36,10 @@ export default function Home() {
 		});
 	}, []);
 
-	function setOtherLang(lang) {
-		setLang(lang);
-	}
-
 	// >> Render
 	return (
 		<div className={styles.container}>
-			<HomePage lang={lang} setOtherLang={setOtherLang} />
+			<Page404 lang={lang} />
 
 			{loading === true ? (
 				<div className={styles.pageLoader} style={{ opacity: '1' }}>
