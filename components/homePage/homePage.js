@@ -11,6 +11,7 @@ import Landing from './landing/landing.js';
 import RotateLine from './rotateLine/rotateLine.js';
 import OurTeam from './ourTeam/ourTeam.js';
 import OurOffer from './ourOffer/ourOffer.js';
+import OurOfferMini from './ourOfferMini/ourOfferMini';
 import PortfolioCounters from './portfolioCounters/portfolioCounters.js';
 import PortfolioProjects from './portfolioProjects/portfolioProjects.js';
 import Tools from './tools/tools.js';
@@ -142,6 +143,16 @@ function HomePage(props) {
 								priority={true}
 							/>
 						</div>
+						<div className={` ${styles.circle} ${styles.circle8}`}>
+							<Image
+								src={circle}
+								alt=""
+								layout="responsive"
+								objectFit="contain"
+								quality={100}
+								priority={true}
+							/>
+						</div>
 					</div>
 				</div>
 				<div className={styles.compoDiv}>
@@ -153,6 +164,7 @@ function HomePage(props) {
 					<RotateLine side="1" />
 					<OurTeam lang={props.lang} />
 					<OurOffer lang={props.lang} />
+					<OurOfferMini lang={props.lang} />
 					<PortfolioCounters lang={props.lang} />
 					<PortfolioProjects lang={props.lang} />
 					<RotateLine side="2" />

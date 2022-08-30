@@ -215,6 +215,68 @@ const useStyles = makeStyles({
 		marginTop: '-1px',
 		float: 'left',
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+
+		centerDiv: {
+			marginLeft: '141px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+		},
+	},
+
+	// 1220px
+	['@media (max-width: 1220px)']: {
+		centerDiv: {
+			display: 'none',
+		},
+	},
+
+	// 530px
+	['@media (max-width: 530px)']: {
+		leftDiv: {
+			margin: '0 auto',
+			marginTop: '16px',
+			float: 'none',
+		},
+
+		mainDiv: {
+			height: 'auto',
+			paddingBottom: '16px',
+		},
+
+		rightDiv: {
+			width: '280px',
+			float: 'none',
+			marginTop: '14px',
+			margin: '0 auto',
+		},
+
+		languageButtonDiv: {
+			marginRight: '14px',
+		},
+	},
+
+	// 350px
+	['@media (max-width: 350px)']: {
+		rightDiv: {
+			width: '271px',
+		},
+
+		languageButtonDiv: {
+			marginRight: '5px',
+		},
+	},
 });
 
 export default useStyles;

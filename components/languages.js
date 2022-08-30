@@ -74,6 +74,79 @@ const Languages = {
 			secondOfferTime: '7-14',
 		},
 
+		['OfferMini']: {
+			price: 'Cena',
+			priceCurrency: 'PLN',
+
+			devOffer: 'Usługa programistyczna',
+			uxOffer: 'Usługa graficzna',
+
+			// MARCEL
+			// >> 1 Month support
+			['marcel_1month-title']: 'Miesięczne',
+			['marcel_1month-title-green']: 'wsparcie',
+			['marcel_1month-desc']:
+				'Obsługa w zakresie aktualizacji i rozszerzania treści oraz bezpieczeństwa strony internetowej według twoich preferencji.',
+			['marcel_1month-price']: '300',
+
+			// >> Pojedyńcze zmiany
+			['marcel_changes-title']: 'Pojedyńcze',
+			['marcel_changes-title-green']: 'zmiany (1h)',
+			['marcel_changes-desc']:
+				'Jeżeli nie masz wykupionej opcji miesięcznego wsparcia strony możesz wybrać tę usługę. Podana kwota podlega każdej rozpoczętej godziny pracy.',
+			['marcel_changes-price']: '300',
+
+			// >> Dodatkowe języki
+			['marcel_languages-title']: 'Wielojęzyczność',
+			['marcel_languages-title-green']: 'strony',
+			['marcel_languages-desc']:
+				'Jeżeli działasz na rynku światowym możesz zrobić stronę wielojęzyczną. Podana kwota to cena za pierwszy dodatkowy język. Każdy następny to 150zł.',
+			['marcel_languages-price']: '300',
+
+			// >> Domena
+			['marcel_domain-title']: 'Twoja własna',
+			['marcel_domain-title-green']: 'domena',
+			['marcel_domain-desc']:
+				'Jeżeli nie masz wykupionej domeny dla swojej strony możesz zrobić to u nas. Podana kwota to cena rocznej opłaty domeny.',
+			['marcel_domain-price']: '300',
+
+			// >> Podstrony
+			['marcel_podstrony-title']: 'Dodatkowa',
+			['marcel_podstrony-title-green']: 'podstrona',
+			['marcel_podstrony-desc']:
+				'Jeżeli posiadasz już u nas stronę i chcesz ją rozszerzyć o dodatkową podstrone skontaktuj się z nami w celu wyceny.',
+			['marcel_podstrony-price']: 'X',
+
+			// MACIEK
+			// >> Social Media
+			['maciek_socialmedia-title']: 'Social',
+			['maciek_socialmedia-title-green']: 'Media',
+			['maciek_socialmedia-desc']:
+				'Wykonam projekty na Twoje Social Media. (Posty, banery itp.) Cena może różnić się w zależności od skomplikowania grafik.',
+			['maciek_socialmedia-price']: '300',
+
+			// >> Branding
+			['maciek_branding-title']: 'Branding',
+			['maciek_branding-title-green']: 'firmy',
+			['maciek_branding-desc']:
+				'Wykonam branding dla Twojej firmy. (Logo, logotyp, sygnet)',
+			['maciek_branding-price']: '300',
+
+			// >> Ulotki
+			['maciek_ulotki-title']: 'Materiały',
+			['maciek_ulotki-title-green']: 'drukowane',
+			['maciek_ulotki-desc']:
+				'Przygotuję materiały drukowane. (Ulotki, wizytówki, katalogi, roll up, banery itp.)',
+			['maciek_ulotki-price']: '300',
+
+			// >> Grafiki
+			['maciek_grafiki-title']: 'Nietypowe',
+			['maciek_grafiki-title-green']: 'grafiki',
+			['maciek_grafiki-desc']:
+				'Przygotuję wszelakie różnorodne grafiki, które nie zostały wymienione poprzednio.',
+			['maciek_grafiki-price']: '300',
+		},
+
 		['PortfolioCounters']: {
 			borderTitle: 'PORTFOLIO',
 			mainTitle: 'Nasze',
@@ -87,6 +160,7 @@ const Languages = {
 		['PortfolioProjects']: {
 			realization: 'Czas realizacji',
 			realizationDays: 'dni',
+			realizationDay: 'dzień',
 			visitWeb: 'Odwiedź stronę',
 			visitProject: 'Odwiedź projekt',
 			started: 'Zlecone',
@@ -111,6 +185,19 @@ const Languages = {
 				'Strona internetowa stworzona dla Agencji NFT.',
 
 			['Foo-Desc']: 'Landing page dla firmy "Foo".',
+
+			['Hook & Rod-Desc']:
+				'Projekt logotypu dla działalności zajmującej się rezerwacją stanowisk wędkarskich.',
+
+			['Meta3Gold-Desc']: "Projekt Landing page'a dla projektu NFT.",
+
+			['SinceRPG Roulette-Desc']:
+				'Projekt ruletki do kasyna na serwer do gry Multi Theft Auto na tryb RPG.',
+
+			['Sphinx - Menu-Desc']: 'Projekt menu dla restauracji Sphinx.',
+
+			['Stargaze-Desc']:
+				"Projekt UI/UX Landing page'a dla NFT Launchpad'u, oraz marketplace'u Stargaze.zone.",
 		},
 
 		['Tools']: {
@@ -146,8 +233,8 @@ const Languages = {
 			socialMediaDesc:
 				'Jeżeli masz możliwość napisz do nas tutaj, odpowiedź jest zawsze szybsza niż poprzez formularz.',
 
-			clickOpen: 'Kliknij aby otworzyć',
-			clickCopy: 'Kliknij aby skopiować',
+			clickOpen: 'Kliknij, aby otworzyć',
+			clickCopy: 'Kliknij, aby skopiować',
 			clickCopyCopied: 'Skopiowano!',
 		},
 
@@ -229,6 +316,79 @@ const Languages = {
 			secondOfferTime: '7-14',
 		},
 
+		['OfferMini']: {
+			price: 'Price',
+			priceCurrency: '$',
+
+			devOffer: 'Development service',
+			uxOffer: 'Graphics service',
+
+			// MARCEL
+			// >> 1 Month support
+			['marcel_1month-title']: 'Monthly',
+			['marcel_1month-title-green']: 'support',
+			['marcel_1month-desc']:
+				'Support for updating and expanding the content and website security according to your preferences.',
+			['marcel_1month-price']: '300',
+
+			// >> Pojedyńcze zmiany
+			['marcel_changes-title']: 'Single',
+			['marcel_changes-title-green']: 'changes (1hr)',
+			['marcel_changes-desc']:
+				'If you do not have a monthly website support option, you can choose this service. The given amount is subject to each commenced working hour.',
+			['marcel_changes-price']: '300',
+
+			// >> Dodatkowe języki
+			['marcel_languages-title']: 'Multilingual',
+			['marcel_languages-title-green']: 'website',
+			['marcel_languages-desc']:
+				'If you operate on the world market, you can make a multilingual website. The amount shown is the price for the first additional language. Each subsequent one is $150.',
+			['marcel_languages-price']: '300',
+
+			// >> Domena
+			['marcel_domain-title']: 'Your own',
+			['marcel_domain-title-green']: 'domain',
+			['marcel_domain-desc']:
+				'If you do not have a domain name for your website, you can do it with us. The amount given is the price of the annual domain fee.',
+			['marcel_domain-price']: '300',
+
+			// >> Podstrony
+			['marcel_podstrony-title']: 'Additional',
+			['marcel_podstrony-title-green']: 'subpage',
+			['marcel_podstrony-desc']:
+				'If you already have a website with us and want to extend it with an additional subpage, please contact us for a pricing.',
+			['marcel_podstrony-price']: 'X',
+
+			// MACIEK
+			// >> Social Media
+			['maciek_socialmedia-title']: 'Social',
+			['maciek_socialmedia-title-green']: 'Media',
+			['maciek_socialmedia-desc']:
+				'I will make projects for your Social Media. (Posts, banners, etc.) The price may vary depending on the complexity of the graphics.',
+			['maciek_socialmedia-price']: '300',
+
+			// >> Branding
+			['maciek_branding-title']: 'Company',
+			['maciek_branding-title-green']: 'branding',
+			['maciek_branding-desc']:
+				'I will make branding for your company. (Logo, logotype, signet)',
+			['maciek_branding-price']: '300',
+
+			// >> Ulotki
+			['maciek_ulotki-title']: 'Printed',
+			['maciek_ulotki-title-green']: 'materials',
+			['maciek_ulotki-desc']:
+				'I will prepare printed materials. (Flyers, business cards, catalogs, roll ups, banners, etc.)',
+			['maciek_ulotki-price']: '300',
+
+			// >> Grafiki
+			['maciek_grafiki-title']: 'Unusual',
+			['maciek_grafiki-title-green']: 'graphics',
+			['maciek_grafiki-desc']:
+				'I will prepare all kinds of graphics that have not been mentioned previously.',
+			['maciek_grafiki-price']: '300',
+		},
+
 		['PortfolioCounters']: {
 			borderTitle: 'PORTFOLIO',
 			mainTitle: 'Our',
@@ -242,6 +402,7 @@ const Languages = {
 		['PortfolioProjects']: {
 			realization: 'Lead time',
 			realizationDays: 'days',
+			realizationDay: 'day',
 			visitWeb: 'Visit website',
 			visitProject: 'Visit design',
 			started: 'Started',
@@ -265,6 +426,19 @@ const Languages = {
 			['NFT Blueprint-Desc']: 'Website created for the NFT Agency.',
 
 			['Foo-Desc']: 'Landing page for the "Foo" company.',
+
+			['Hook & Rod-Desc']:
+				'Logo design for the activity dealing with the booking of fishing positions.',
+
+			['Meta3Gold-Desc']: 'Landing page project for the NFT project.',
+
+			['SinceRPG Roulette-Desc']:
+				'Casino roulette project for Multi Theft Auto server for RPG mode.',
+
+			['Sphinx - Menu-Desc']: 'Menu design for Sphinx restaurants.',
+
+			['Stargaze-Desc']:
+				'UI / UX Landing page project for NFT Launchpad and Stargaze.zone marketplace.',
 		},
 
 		['Tools']: {
