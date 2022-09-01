@@ -27,6 +27,28 @@ const useStyles = makeStyles({
 		position: 'relative',
 		marginTop: '227px',
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+		},
+	},
+
+	// 380px
+	['@media (max-width: 380px)']: {
+		insideDiv: {
+			marginTop: '190px',
+		},
+	},
 });
 
 export default useStyles;

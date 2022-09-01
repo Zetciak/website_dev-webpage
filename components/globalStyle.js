@@ -117,6 +117,117 @@ const useGlobalStyles = makeStyles({
 		// Color
 		color: '#DFDFDF',
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		borderText: {
+			width: '100%',
+		},
+
+		mainTitle: {
+			width: '100%',
+		},
+
+		mainDesc: {
+			width: '90%',
+		},
+	},
+
+	// 1050px
+	['@media (max-width: 1050px)']: {
+		mainDesc: {
+			width: '100%',
+		},
+
+		borderText: {
+			fontSize: '28px',
+			lineHeight: '125%',
+		},
+
+		mainTitle: {
+			fontSize: '74px',
+			lineHeight: '105%',
+		},
+	},
+
+	// 620px
+	['@media (max-width: 620px)']: {
+		borderText: {
+			fontSize: '22px',
+			lineHeight: '125%',
+		},
+
+		mainTitle: {
+			fontSize: '64px',
+			lineHeight: '105%',
+		},
+
+		mainDesc: {
+			fontWeight: '300',
+			fontSize: '16px',
+		},
+	},
+
+	// 550px
+	['@media (max-width: 550px)']: {
+		borderText: {
+			fontSize: '22px',
+			lineHeight: '125%',
+		},
+
+		mainTitle: {
+			fontSize: '54px',
+			lineHeight: '105%',
+			marginTop: '15px',
+		},
+
+		mainDesc: {
+			fontWeight: '300',
+			fontSize: '16px',
+			marginTop: '15px',
+		},
+	},
+
+	// 435px
+	['@media (max-width: 435px)']: {
+		borderText: {
+			fontSize: '20px',
+			lineHeight: '125%',
+		},
+
+		mainTitle: {
+			fontSize: '48px',
+			lineHeight: '100%',
+			marginTop: '8px',
+		},
+
+		mainDesc: {
+			fontWeight: '300',
+			fontSize: '15px',
+			marginTop: '8px',
+		},
+	},
+
+	// 380px
+	['@media (max-width: 380px)']: {
+		borderText: {
+			fontSize: '20px',
+			lineHeight: '125%',
+		},
+
+		mainTitle: {
+			fontSize: '40px',
+			lineHeight: '100%',
+			marginTop: '8px',
+		},
+
+		mainDesc: {
+			fontWeight: '300',
+			fontSize: '15px',
+			marginTop: '8px',
+		},
+	},
 });
 
 export default useGlobalStyles;

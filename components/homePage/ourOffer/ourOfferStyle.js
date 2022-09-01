@@ -219,7 +219,7 @@ const useStyles = makeStyles({
 		fontSize: '14px',
 		lineHeight: '140%',
 		color: '#DFDFDF',
-		height: '90px',
+		minHeight: '90px',
 	},
 
 	priceDiv: {
@@ -291,6 +291,160 @@ const useStyles = makeStyles({
 
 		'& span': {
 			color: '#FFFFFF',
+		},
+	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+			marginTop: '100px',
+		},
+
+		offerDiv: {
+			width: '590px',
+			marginTop: '100px',
+		},
+
+		oneOffer: {
+			width: '100%',
+			height: '100%',
+			marginTop: '50px',
+
+			'&:first-child': {
+				marginTop: '0px',
+			},
+		},
+
+		insideLeftOffer: {
+			'&:before': {
+				width: '140%',
+				left: '-20%',
+				background:
+					'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+			},
+
+			'&:after': {
+				width: '140%',
+				left: '-20%',
+				background:
+					'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+			},
+		},
+
+		insideRightOffer: {
+			'&:before': {
+				width: '140%',
+				left: '-20%',
+				background:
+					'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+			},
+
+			'&:after': {
+				width: '140%',
+				left: '-20%',
+				background:
+					'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+			},
+		},
+
+		insideInsideOffer: {
+			'&:before': {
+				background:
+					'linear-gradient(0deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+				width: '2px',
+				height: '120%',
+				top: '-10%',
+				left: '0px',
+				transform: 'rotate(0deg)',
+			},
+
+			'&:after': {
+				background:
+					'linear-gradient(0deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+				width: '2px',
+				height: '120%',
+				top: '-10%',
+				right: '0px',
+				transform: 'rotate(0deg)',
+			},
+		},
+	},
+
+	// 800px
+	['@media (max-width: 800px)']: {
+		insideDiv: {
+			width: '80%',
+		},
+
+		offerDiv: {
+			width: '100%',
+		},
+	},
+
+	// 730px
+	['@media (max-width: 730px)']: {
+		offerDiv: {
+			height: 'auto',
+		},
+
+		contactButtonDiv: {
+			marginBottom: '30px',
+		},
+
+		avatarDiv: {
+			margin: '0 auto',
+			marginTop: '-86px',
+			float: 'none',
+		},
+
+		offerTitle: {
+			float: 'none',
+			width: '100%',
+			margin: '0 auto',
+			marginTop: '22px',
+			textAlign: 'center',
+		},
+
+		offerDesc: {
+			float: 'none',
+			width: '100%',
+			margin: '0 auto',
+			paddingTop: '22px',
+			textAlign: 'center',
+		},
+	},
+
+	// 600px
+	['@media (max-width: 600px)']: {
+		avatarDiv: {
+			marginTop: '-136px',
+		},
+	},
+
+	// 480px
+	['@media (max-width: 480px)']: {
+		avatarDiv: {
+			width: '120px',
+			height: '120px',
+		},
+
+		avatarImage: {
+			marginLeft: '15px',
+			marginTop: '10px',
+		},
+
+		avatarImageRight: {
+			marginLeft: '10px',
+			marginTop: '10px',
 		},
 	},
 });
