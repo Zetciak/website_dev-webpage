@@ -85,6 +85,7 @@ function OurOfferMini(props) {
 					<div className={styles.leftRight}></div>
 					<div className={styles.topBottom}></div>
 					<div className={styles.topOfferSection}>
+						<div className={styles.faceTop}></div>
 						<div className={styles.faceDiv}>
 							<div className={styles.faceDivImage}>
 								<Image

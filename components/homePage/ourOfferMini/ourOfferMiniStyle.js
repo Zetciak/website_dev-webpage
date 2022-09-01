@@ -17,6 +17,10 @@ const useStyles = makeStyles({
 		marginTop: '50px',
 	},
 
+	faceTop: {
+		display: 'none',
+	},
+
 	oneOffer: {
 		width: '30%',
 		height: '195px',
@@ -169,7 +173,7 @@ const useStyles = makeStyles({
 		fontSize: '11.5px',
 		lineHeight: '14px',
 		color: '#DFDFDF',
-		height: '44px',
+		minHeight: '44px',
 	},
 
 	bottomPrices: {
@@ -196,6 +200,83 @@ const useStyles = makeStyles({
 		letterSpacing: '0.179896px',
 		color: '#FFFFFF',
 		float: 'right',
+	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+			marginTop: '100px',
+		},
+
+		oneOffer: {
+			width: '590px',
+			height: 'auto',
+			margin: '0 auto',
+			marginTop: '50px',
+			paddingBottom: '40px',
+		},
+
+		leftOffer: {
+			float: 'none',
+		},
+
+		centerOffer: {
+			float: 'none',
+		},
+
+		rightOffer: {
+			float: 'none',
+		},
+
+		faceTop: {
+			display: 'block',
+			paddingTop: '20px',
+		},
+
+		faceDiv: {
+			float: 'none',
+			margin: '0 auto',
+		},
+
+		titlesDiv: {
+			width: '100%',
+			marginLeft: '0px',
+		},
+
+		mainTitleText: {
+			width: '100%',
+			textAlign: 'center',
+		},
+
+		mainTitleDesc: {
+			width: '100%',
+			textAlign: 'center',
+		},
+
+		offerDesc: {
+			width: '100%',
+			textAlign: 'center',
+		},
+	},
+
+	// 800px
+	['@media (max-width: 800px)']: {
+		insideDiv: {
+			width: '80%',
+		},
+
+		oneOffer: {
+			width: '100%',
+		},
 	},
 });
 
