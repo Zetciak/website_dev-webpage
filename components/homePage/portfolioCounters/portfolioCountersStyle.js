@@ -31,7 +31,7 @@ const useStyles = makeStyles({
 			position: 'absolute',
 			content: '""',
 			background:
-				'linear-gradient(90deg, rgba(33, 35, 34, 0.25) 0%, #33D972 51.04%, #212322 100%)',
+				'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
 			'z-index': '2',
 			width: '1440px',
 			height: '2px',
@@ -42,7 +42,7 @@ const useStyles = makeStyles({
 			position: 'absolute',
 			content: '""',
 			background:
-				'linear-gradient(90deg, rgba(33, 35, 34, 0.25) 0%, #33D972 51.04%, #212322 100%)',
+				'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
 			'z-index': '2',
 			width: '1440px',
 			height: '2px',
@@ -61,7 +61,7 @@ const useStyles = makeStyles({
 			position: 'absolute',
 			content: '""',
 			background:
-				'linear-gradient(90deg, rgba(33, 35, 34, 0.25) 0%, #33D972 51.04%, #212322 100%)',
+				'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
 			'z-index': '1',
 			width: '693px',
 			height: '2px',
@@ -85,7 +85,7 @@ const useStyles = makeStyles({
 			position: 'absolute',
 			content: '""',
 			background:
-				'linear-gradient(90deg, rgba(33, 35, 34, 0.25) 0%, #33D972 51.04%, #212322 100%)',
+				'linear-gradient(90deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
 			'z-index': '1',
 			width: '693px',
 			height: '2px',
@@ -137,6 +137,117 @@ const useStyles = makeStyles({
 
 		// Color
 		color: '#ffffff',
+	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+			marginTop: '100px',
+		},
+
+		threeBlocks: {
+			width: '100%',
+		},
+	},
+
+	// 1240px
+	['@media (max-width: 1240px)']: {
+		borderTextLocal: {
+			width: '100%',
+		},
+
+		greenTextLocal: {
+			width: '100%',
+		},
+	},
+
+	// 1080px
+	['@media (max-width: 1080px)']: {
+		borderTextLocal: {
+			fontSize: '120px',
+			marginTop: '25px',
+		},
+
+		greenTextLocal: {
+			fontSize: '120px',
+			marginTop: '25px',
+		},
+
+		whiteDesc: {
+			fontSize: '40px',
+		},
+
+		threeBlocks: {
+			height: '207px',
+			marginTop: '80px',
+
+			'&:before': {
+				width: '120%',
+				height: '2px',
+				left: '-10%',
+			},
+
+			'&:after': {
+				width: '120%',
+				height: '2px',
+				left: '-10%',
+			},
+		},
+
+		oneBlock: {
+			'&:before': {
+				width: '2px',
+				height: '140%',
+				background:
+					'linear-gradient(0deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+				transform: 'rotate(0deg)',
+				top: '-20%',
+				left: '0px',
+			},
+		},
+
+		thirdBlock: {
+			'&:after': {
+				width: '2px',
+				height: '140%',
+				background:
+					'linear-gradient(0deg, rgba(33, 35, 34, 0) 0%, #33D972 51.04%, rgba(33, 35, 34, 0) 100%)',
+				transform: 'rotate(0deg)',
+				top: '-20%',
+				right: '0px',
+			},
+		},
+	},
+
+	// 640px
+	['@media (max-width: 640px)']: {
+		borderTextLocal: {
+			fontSize: '60px',
+			marginTop: '12px',
+		},
+
+		greenTextLocal: {
+			fontSize: '60px',
+			marginTop: '12px',
+		},
+
+		whiteDesc: {
+			fontSize: '20px',
+		},
+
+		threeBlocks: {
+			height: '100px',
+			marginTop: '40px',
+		},
 	},
 });
 
