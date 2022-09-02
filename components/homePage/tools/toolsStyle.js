@@ -60,6 +60,54 @@ const useStyles = makeStyles({
 			},
 		},
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '90%',
+			marginTop: '100px',
+		},
+	},
+
+	// 1155px
+	['@media (max-width: 1155px)']: {
+		logosDiv: {
+			marginTop: '70px',
+			width: '90%',
+			margin: '0 auto',
+		},
+
+		oneLogo: {
+			width: '50%',
+			height: '300px',
+		},
+
+		mainDiv: {
+			height: 'auto',
+		},
+	},
+
+	// 900px
+	['@media (max-width: 900px)']: {
+		oneLogo: {
+			height: '200px',
+		},
+	},
+
+	// 550px
+	['@media (max-width: 550px)']: {
+		oneLogo: {
+			height: '120px',
+		},
+	},
 });
 
 export default useStyles;
