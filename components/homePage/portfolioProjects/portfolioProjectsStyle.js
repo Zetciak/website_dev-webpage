@@ -232,6 +232,123 @@ const useStyles = makeStyles({
 			color: '#FFFFFF',
 		},
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '1184px',
+		},
+	},
+
+	// 1340px
+	['@media (max-width: 1340px)']: {
+		insideDiv: {
+			width: '590px',
+			marginTop: '100px',
+		},
+
+		blocksDiv: {
+			width: '100%',
+		},
+
+		oneBlock: {
+			width: '100%',
+		},
+
+		leftBlock: {
+			float: 'none',
+			marginRight: '0%',
+		},
+
+		centerBlock: {
+			float: 'none',
+			marginRight: '0%',
+		},
+
+		rightBlock: {
+			float: 'none',
+		},
+	},
+
+	// 1080px
+	['@media (max-width: 1080px)']: {
+		blocksDiv: {
+			marginTop: '100px',
+		},
+	},
+
+	// 800px
+	['@media (max-width: 800px)']: {
+		insideDiv: {
+			width: '80%',
+		},
+	},
+
+	// 445px
+	['@media (max-width: 445px)']: {
+		leftDiv: {
+			fontSize: '11px',
+		},
+
+		rightDiv: {
+			fontSize: '11px',
+		},
+
+		projectTitleDiv: {
+			fontSize: '14px',
+		},
+
+		infosDiv: {
+			width: '60%',
+		},
+	},
+
+	// 385px
+	['@media (max-width: 385px)']: {
+		leftDiv: {
+			fontSize: '9px',
+			width: '100%',
+			textAlign: 'center',
+		},
+
+		rightDiv: {
+			fontSize: '9px',
+			width: '100%',
+			textAlign: 'center',
+			marginTop: '5px',
+		},
+
+		projectTitleDiv: {
+			fontSize: '12px',
+			width: '100%',
+			textAlign: 'center',
+			marginTop: '-2px',
+		},
+
+		infosDiv: {
+			width: '55%',
+		},
+	},
+
+	// 345px
+	['@media (max-width: 345px)']: {
+		leftDiv: {
+			fontSize: '8px',
+		},
+
+		rightDiv: {
+			fontSize: '8px',
+		},
+
+		projectTitleDiv: {
+			fontSize: '11px',
+		},
+
+		infosDiv: {
+			width: '50%',
+		},
+	},
 });
 
 export default useStyles;
