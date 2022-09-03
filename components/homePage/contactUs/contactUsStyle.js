@@ -313,6 +313,88 @@ const useStyles = makeStyles({
 			marginTop: '17px',
 		},
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '90%',
+		},
+	},
+
+	// 1350px
+	['@media (max-width: 1350px)']: {
+		rightSection: {
+			display: 'none',
+		},
+
+		leftSection: {
+			width: '100%',
+		},
+	},
+
+	// 900px
+	['@media (max-width: 900px)']: {
+		panelTitle: {
+			width: '100%',
+			textAlign: 'center',
+		},
+
+		panelDesc: {
+			width: '100%',
+			textAlign: 'center',
+		},
+	},
+
+	// 630px
+	['@media (max-width: 630px)']: {
+		panelTitle: {
+			fontSize: '30px',
+		},
+
+		panelDesc: {
+			fontSize: '11px',
+		},
+
+		socialMediaLeft: {
+			width: '100%',
+		},
+
+		socialMediaTitle: {
+			textAlign: 'center',
+			width: '100%',
+		},
+
+		socialMediaDesc: {
+			textAlign: 'center',
+			width: '100%',
+		},
+
+		socialMediaRight: {
+			width: '171px',
+			float: 'none',
+			margin: '0 auto',
+			marginTop: '80px',
+		},
+
+		insideContactForm: {
+			marginTop: '30px',
+		},
+	},
+
+	// 460px
+	['@media (max-width: 460px)']: {
+		insideContactForm: {
+			marginTop: '10px',
+		},
+	},
+
+	// 335px
+	['@media (max-width: 335px)']: {
+		contactForm: {
+			height: '550px',
+		},
+	},
 });
 
 export default useStyles;

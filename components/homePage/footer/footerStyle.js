@@ -45,6 +45,14 @@ const useStyles = makeStyles({
 	footerTextGreen: {
 		color: '#32DB74',
 	},
+
+	// <<<<<<<<<<<<<<<<<<<< Responsive scale
+	// 1550px
+	['@media (max-width: 1550px)']: {
+		insideDiv: {
+			width: '90%',
+		},
+	},
 });
 
 export default useStyles;
