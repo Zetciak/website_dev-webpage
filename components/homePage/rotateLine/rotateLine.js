@@ -15,7 +15,7 @@ function RotateLine(props) {
 
 	// >> Render
 	return (
-		<div className={styles.mainDiv}>
+		<div className={styles.mainDiv} data-aos="fade-up">
 			<div
 				className={
 					props.side === '1'

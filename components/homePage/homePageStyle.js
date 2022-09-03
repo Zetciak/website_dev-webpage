@@ -85,7 +85,7 @@ const useStyles = makeStyles({
 	// 1450px
 	['@media (max-width: 1450px)']: {
 		bgDivInside: {
-			width: '1448px',
+			width: '100%',
 		},
 	},
 });

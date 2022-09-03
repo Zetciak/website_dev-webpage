@@ -23,17 +23,23 @@ function PortfolioCounters(props) {
 	return (
 		<div className={styles.mainDiv} id="portfolio">
 			<div className={styles.insideDiv}>
-				<Typography className={globalStyles.borderText}>
+				<Typography
+					className={globalStyles.borderText}
+					data-aos="zoom-in-up"
+				>
 					{getText.borderTitle}
 				</Typography>
-				<Typography className={globalStyles.mainTitle}>
+				<Typography
+					className={globalStyles.mainTitle}
+					data-aos="zoom-in-up"
+				>
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
 				</Typography>
 
-				<div className={styles.threeBlocks}>
+				<div className={styles.threeBlocks} data-aos="zoom-in-up">
 					<div className={`${styles.oneBlock} ${styles.firstBlock}`}>
 						<Typography
 							className={`${globalStyles.borderText} ${styles.borderTextLocal}`}

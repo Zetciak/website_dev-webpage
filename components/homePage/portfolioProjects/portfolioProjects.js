@@ -201,6 +201,7 @@ function PortfolioProjects(props) {
 							? `${styles.oneBlock} ${styles.centerBlock}`
 							: `${styles.oneBlock} ${styles.rightBlock}`
 					}
+					data-aos="zoom-in-up"
 				>
 					<div className={styles.bannerDiv}>
 						<Image

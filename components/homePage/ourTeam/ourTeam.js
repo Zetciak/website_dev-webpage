@@ -25,17 +25,23 @@ function OurTeam(props) {
 	return (
 		<div className={styles.mainDiv} id="team">
 			<div className={styles.insideDiv}>
-				<Typography className={globalStyles.borderText}>
+				<Typography
+					className={globalStyles.borderText}
+					data-aos="zoom-in-up"
+				>
 					{getText.borderTitle}
 				</Typography>
-				<Typography className={globalStyles.mainTitle}>
+				<Typography
+					className={globalStyles.mainTitle}
+					data-aos="zoom-in-up"
+				>
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
 				</Typography>
 
-				<div className={styles.teamSection}>
+				<div className={styles.teamSection} data-aos="zoom-in-up">
 					<div className={styles.maciekDiv}>
 						<div className={styles.insideMaciekDiv}></div>
 						<div className={styles.faceDiv}>

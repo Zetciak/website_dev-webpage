@@ -74,16 +74,25 @@ function Tools(props) {
 	return (
 		<div className={styles.mainDiv} id="tools">
 			<div className={styles.insideDiv}>
-				<Typography className={globalStyles.borderText}>
+				<Typography
+					className={globalStyles.borderText}
+					data-aos="zoom-in-up"
+				>
 					{getText.borderTitle}
 				</Typography>
-				<Typography className={globalStyles.mainTitle}>
+				<Typography
+					className={globalStyles.mainTitle}
+					data-aos="zoom-in-up"
+				>
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
 				</Typography>
-				<Typography className={globalStyles.mainDesc}>
+				<Typography
+					className={globalStyles.mainDesc}
+					data-aos="zoom-in-up"
+				>
 					{getText.mainDesc}
 				</Typography>
 				<div className={styles.logosDiv}>
@@ -95,6 +104,7 @@ function Tools(props) {
 								target="_blank"
 								rel="noreferrer"
 								key={index}
+								data-aos="zoom-in-up"
 							>
 								<div className="normalLogo">
 									<Image

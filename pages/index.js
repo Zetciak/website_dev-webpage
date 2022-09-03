@@ -22,7 +22,7 @@ export default function Home() {
 
 	// >> Functions
 	useEffect(() => {
-		Aos.init({ duration: 700 });
+		Aos.init({ duration: 700, once: true });
 
 		let lang = navigator.language || navigator.userLanguage;
 		if (lang === 'pl-PL') {

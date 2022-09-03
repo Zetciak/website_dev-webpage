@@ -31,7 +31,7 @@ function Landing(props) {
 
 	// >> Render
 	return (
-		<div className={styles.mainDiv}>
+		<div className={styles.mainDiv} data-aos="fade-down">
 			<div className={styles.insideDiv}>
 				<div className={styles.leftDiv}>
 					<a href=".">

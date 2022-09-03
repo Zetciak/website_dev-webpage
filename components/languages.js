@@ -62,16 +62,16 @@ const Languages = {
 			firstOfferTitle3: 'Usługa Programistyczna',
 			firstOfferDesc:
 				'Jeżeli posiadasz swojego programistę lub grafika możesz zlecić nam tylko jedną z usług, w celu ustalenia większej ilości szczegółów skontaktuj się z nami.',
-			firstOfferPrice: '2000-5600',
-			firstOfferTime: '7-21',
+			firstOfferPrice: '1000-2000',
+			firstOfferTime: '3-7',
 
 			secondOfferTitle1: 'Projekt Graficzny',
-			secondOfferTitle2: '&',
+			secondOfferTitle2: 'i',
 			secondOfferTitle3: 'Usługa Programistyczna',
 			secondOfferDesc:
 				'Jeżeli nie posiadasz w zespole ani programisty ani grafika to usługa dla ciebie! Stworzymy dla ciebie nowoczesną stronę internetową według twoich preferencji. Skontaktuj się z nami w celu ustalenia szczegółów.',
-			secondOfferPrice: '1000-4200',
-			secondOfferTime: '7-14',
+			secondOfferPrice: '1700-3400',
+			secondOfferTime: '5-14',
 		},
 
 		['OfferMini']: {
@@ -87,28 +87,28 @@ const Languages = {
 			['marcel_1month-title-green']: 'wsparcie',
 			['marcel_1month-desc']:
 				'Obsługa w zakresie aktualizacji i rozszerzania treści oraz bezpieczeństwa strony internetowej według twoich preferencji.',
-			['marcel_1month-price']: '300',
+			['marcel_1month-price']: '250',
 
 			// >> Pojedyńcze zmiany
 			['marcel_changes-title']: 'Pojedyńcze',
 			['marcel_changes-title-green']: 'zmiany (1h)',
 			['marcel_changes-desc']:
 				'Jeżeli nie masz wykupionej opcji miesięcznego wsparcia strony możesz wybrać tę usługę. Podana kwota podlega każdej rozpoczętej godziny pracy.',
-			['marcel_changes-price']: '300',
+			['marcel_changes-price']: '50',
 
 			// >> Dodatkowe języki
 			['marcel_languages-title']: 'Wielojęzyczność',
 			['marcel_languages-title-green']: 'strony',
 			['marcel_languages-desc']:
 				'Jeżeli działasz na rynku światowym możesz zrobić stronę wielojęzyczną. Podana kwota to cena za pierwszy dodatkowy język. Każdy następny to 150zł.',
-			['marcel_languages-price']: '300',
+			['marcel_languages-price']: '350',
 
 			// >> Domena
 			['marcel_domain-title']: 'Twoja własna',
 			['marcel_domain-title-green']: 'domena',
 			['marcel_domain-desc']:
 				'Jeżeli nie masz wykupionej domeny dla swojej strony możesz zrobić to u nas. Podana kwota to cena rocznej opłaty domeny.',
-			['marcel_domain-price']: '300',
+			['marcel_domain-price']: '150',
 
 			// >> Podstrony
 			['marcel_podstrony-title']: 'Dodatkowa',
@@ -123,28 +123,28 @@ const Languages = {
 			['maciek_socialmedia-title-green']: 'Media',
 			['maciek_socialmedia-desc']:
 				'Wykonam projekty na Twoje Social Media. (Posty, banery itp.) Cena może różnić się w zależności od skomplikowania grafik.',
-			['maciek_socialmedia-price']: '300',
+			['maciek_socialmedia-price']: '50-150',
 
 			// >> Branding
 			['maciek_branding-title']: 'Branding',
 			['maciek_branding-title-green']: 'firmy',
 			['maciek_branding-desc']:
 				'Wykonam branding dla Twojej firmy. (Logo, logotyp, sygnet)',
-			['maciek_branding-price']: '300',
+			['maciek_branding-price']: '100-500',
 
 			// >> Ulotki
 			['maciek_ulotki-title']: 'Materiały',
 			['maciek_ulotki-title-green']: 'drukowane',
 			['maciek_ulotki-desc']:
 				'Przygotuję materiały drukowane. (Ulotki, wizytówki, katalogi, roll up, banery itp.)',
-			['maciek_ulotki-price']: '300',
+			['maciek_ulotki-price']: '50-300',
 
 			// >> Grafiki
 			['maciek_grafiki-title']: 'Nietypowe',
 			['maciek_grafiki-title-green']: 'grafiki',
 			['maciek_grafiki-desc']:
 				'Przygotuję wszelakie różnorodne grafiki, które nie zostały wymienione poprzednio.',
-			['maciek_grafiki-price']: '300',
+			['maciek_grafiki-price']: '100-500',
 		},
 
 		['PortfolioCounters']: {
@@ -304,16 +304,16 @@ const Languages = {
 			firstOfferTitle3: 'Development Service',
 			firstOfferDesc:
 				'If you have your own programmer or graphic designer, you can commission us with only one of the services, in order to arrange more details, please contact us.',
-			firstOfferPrice: '450-1200',
-			firstOfferTime: '7-21',
+			firstOfferPrice: '200-400',
+			firstOfferTime: '3-7',
 
 			secondOfferTitle1: 'Graphic design',
 			secondOfferTitle2: '&',
 			secondOfferTitle3: 'Development Service',
 			secondOfferDesc:
 				'If you do not have a programmer or a graphic designer in your team, this service is for you! We will create a modern website for you according to your preferences. Contact us for details.',
-			secondOfferPrice: '220-920',
-			secondOfferTime: '7-14',
+			secondOfferPrice: '350-700',
+			secondOfferTime: '5-14',
 		},
 
 		['OfferMini']: {
@@ -329,28 +329,28 @@ const Languages = {
 			['marcel_1month-title-green']: 'support',
 			['marcel_1month-desc']:
 				'Support for updating and expanding the content and website security according to your preferences.',
-			['marcel_1month-price']: '300',
+			['marcel_1month-price']: '55',
 
 			// >> Pojedyńcze zmiany
 			['marcel_changes-title']: 'Single',
 			['marcel_changes-title-green']: 'changes (1hr)',
 			['marcel_changes-desc']:
 				'If you do not have a monthly website support option, you can choose this service. The given amount is subject to each commenced working hour.',
-			['marcel_changes-price']: '300',
+			['marcel_changes-price']: '15',
 
 			// >> Dodatkowe języki
 			['marcel_languages-title']: 'Multilingual',
 			['marcel_languages-title-green']: 'website',
 			['marcel_languages-desc']:
-				'If you operate on the world market, you can make a multilingual website. The amount shown is the price for the first additional language. Each subsequent one is $150.',
-			['marcel_languages-price']: '300',
+				'If you operate on the world market, you can make a multilingual website. The amount shown is the price for the first additional language. Each subsequent is $30.',
+			['marcel_languages-price']: '75',
 
 			// >> Domena
 			['marcel_domain-title']: 'Your own',
 			['marcel_domain-title-green']: 'domain',
 			['marcel_domain-desc']:
 				'If you do not have a domain name for your website, you can do it with us. The amount given is the price of the annual domain fee.',
-			['marcel_domain-price']: '300',
+			['marcel_domain-price']: '50',
 
 			// >> Podstrony
 			['marcel_podstrony-title']: 'Additional',
@@ -365,28 +365,28 @@ const Languages = {
 			['maciek_socialmedia-title-green']: 'Media',
 			['maciek_socialmedia-desc']:
 				'I will make projects for your Social Media. (Posts, banners, etc.) The price may vary depending on the complexity of the graphics.',
-			['maciek_socialmedia-price']: '300',
+			['maciek_socialmedia-price']: '10-30',
 
 			// >> Branding
 			['maciek_branding-title']: 'Company',
 			['maciek_branding-title-green']: 'branding',
 			['maciek_branding-desc']:
 				'I will make branding for your company. (Logo, logotype, signet)',
-			['maciek_branding-price']: '300',
+			['maciek_branding-price']: '20-100',
 
 			// >> Ulotki
 			['maciek_ulotki-title']: 'Printed',
 			['maciek_ulotki-title-green']: 'materials',
 			['maciek_ulotki-desc']:
 				'I will prepare printed materials. (Flyers, business cards, catalogs, roll ups, banners, etc.)',
-			['maciek_ulotki-price']: '300',
+			['maciek_ulotki-price']: '10-60',
 
 			// >> Grafiki
 			['maciek_grafiki-title']: 'Unusual',
 			['maciek_grafiki-title-green']: 'graphics',
 			['maciek_grafiki-desc']:
 				'I will prepare all kinds of graphics that have not been mentioned previously.',
-			['maciek_grafiki-price']: '300',
+			['maciek_grafiki-price']: '20-100',
 		},
 
 		['PortfolioCounters']: {

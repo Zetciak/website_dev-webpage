@@ -81,6 +81,7 @@ function OurOfferMini(props) {
 							? `${styles.oneOffer} ${styles.centerOffer}`
 							: `${styles.oneOffer} ${styles.rightOffer}`
 					}
+					data-aos="zoom-in-up"
 				>
 					<div className={styles.leftRight}></div>
 					<div className={styles.topBottom}></div>

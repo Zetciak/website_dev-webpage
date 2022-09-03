@@ -97,7 +97,7 @@ function Landing(props) {
 					detectRetina: true,
 				}}
 			/>
-			<div className={styles.insideDiv}>
+			<div className={styles.insideDiv} data-aos="zoom-in-up">
 				<Typography className={globalStyles.borderText}>
 					{getText.borderTitle}
 				</Typography>

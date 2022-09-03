@@ -27,10 +27,16 @@ function OurOffer(props) {
 	return (
 		<div className={styles.mainDiv} id="offer">
 			<div className={styles.insideDiv}>
-				<Typography className={globalStyles.borderText}>
+				<Typography
+					className={globalStyles.borderText}
+					data-aos="zoom-in-up"
+				>
 					{getText.borderTitle}
 				</Typography>
-				<Typography className={globalStyles.mainTitle}>
+				<Typography
+					className={globalStyles.mainTitle}
+					data-aos="zoom-in-up"
+				>
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
@@ -38,7 +44,7 @@ function OurOffer(props) {
 				</Typography>
 
 				<div className={styles.offerDiv}>
-					<div className={styles.oneOffer}>
+					<div className={styles.oneOffer} data-aos="zoom-in-up">
 						<div className={styles.insideLeftOffer}>
 							<div className={styles.insideInsideOffer}></div>
 						</div>
@@ -118,7 +124,10 @@ function OurOffer(props) {
 							</div>
 						</div>
 					</div>
-					<div className={`${styles.oneOffer} ${styles.rightOffer}`}>
+					<div
+						className={`${styles.oneOffer} ${styles.rightOffer}`}
+						data-aos="zoom-in-up"
+					>
 						<div className={styles.insideRightOffer}>
 							<div className={styles.insideInsideOffer}></div>
 						</div>
