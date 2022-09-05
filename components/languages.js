@@ -480,6 +480,39 @@ const Languages = {
 				'Our projects are made in modern programs and technologies, we do not use outdated modules, we work the best we can.',
 		},
 
+		['FAQ']: {
+			borderTitle: 'FAQ',
+			mainTitle: 'Frequently Asked',
+			mainTitleGreen: 'Questions!',
+
+			['faq1-title']: 'Do we issue a VAT invoice?',
+			['faq1-desc']:
+				'Yes, we issue VAT invoices. We use the Useme portal for this. It works as follows: Useme issues a VAT invoice to you, and you are settled by the Contract for a specific work. In return for brokerage, it charges a small commission, however, the commission is charged on my net rate. Example: PLN 1000 net - To be paid FV = PLN 1230, I receive PLN 861.50 (PLN 55 PIT tax, PLN 83.50 Useme commission).',
+
+			['faq2-title']:
+				'What does the payment look like and what do we accept?',
+			['faq2-desc']:
+				'You can settle accounts with us in many ways. We accept bank transfer, payment in cryptocurrencies (USDT / USDC) and PayPal payment (in this case, a PayPal commission of 2.9% should be added to the amount).',
+
+			['faq3-title']:
+				'Will I receive the website files after completion of the implementation?',
+			['faq3-desc']:
+				'Yes, if you want to keep the website on your own, it is possible. However, the option we recommend is maintaining the site on our side, which costs you nothing.',
+
+			['faq4-title']: 'Will I get help with my server / domain?',
+			['faq4-desc']:
+				'If you have your own domain, we will hook it up for free. However, if you do not have one, you can buy it from us. We provide the server, but if you want to maintain the website on your own, it is not a problem for us.',
+
+			['faq5-title']: 'What kind of websites do we create?',
+			['faq5-desc']:
+				'We create websites with an individual graphic design. The website is adapted to any device - including mobile devices. We make websites for companies, individual, business cards, information, landing pages and portals.',
+
+			['faq6-title']:
+				'How long will I wait for the order to be processed?',
+			['faq6-desc']:
+				'The waiting time depends on our occupancy and the complexity of the project. If the waiting time is longer than the one provided, we will inform you about it.',
+		},
+
 		['ContactUs']: {
 			borderTitle: 'CONTACT',
 			mainTitle: 'How can you',
