@@ -17,6 +17,7 @@ import PortfolioProjects from './portfolioProjects/portfolioProjects.js';
 import Tools from './tools/tools.js';
 import ContactUs from './contactUs/contactUs.js';
 import Footer from './footer/footer.js';
+import Faq from './faq/faq.js';
 
 // >> Images
 import circle from '../../public/background/circle.png';
@@ -153,6 +154,16 @@ function HomePage(props) {
 								priority={true}
 							/>
 						</div>
+						<div className={` ${styles.circle} ${styles.circle9}`}>
+							<Image
+								src={circle}
+								alt=""
+								layout="responsive"
+								objectFit="contain"
+								quality={100}
+								priority={true}
+							/>
+						</div>
 					</div>
 				</div>
 				<div className={styles.compoDiv}>
@@ -169,6 +180,7 @@ function HomePage(props) {
 					<PortfolioProjects lang={props.lang} />
 					<RotateLine side="2" />
 					<Tools lang={props.lang} />
+					<Faq lang={props.lang} />
 					<ContactUs lang={props.lang} />
 					<Footer />
 				</div>

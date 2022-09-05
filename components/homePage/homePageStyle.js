@@ -74,6 +74,11 @@ const useStyles = makeStyles({
 		top: '7500px',
 	},
 
+	circle9: {
+		left: '-841px',
+		top: '8500px',
+	},
+
 	// <<<<<<<<<<<<<<<<<<<< Responsive scale
 	// 1920px
 	['@media (max-width: 1920px)']: {

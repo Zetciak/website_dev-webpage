@@ -208,6 +208,37 @@ const Languages = {
 				'Nasze projekty wykonywane są w nowoczesnych programach jak i technologiach, nie używamy przestarzałych modułów, działamy najlepiej jak możemy.',
 		},
 
+		['FAQ']: {
+			borderTitle: 'FAQ',
+			mainTitle: 'Najczęściej zadawane',
+			mainTitleGreen: 'pytania!',
+
+			['faq1-title']: 'Czy wystawiamy fakturę VAT?',
+			['faq1-desc']:
+				'Tak, wystawiamy faktury VAT. Wykorzystujemy do tego portal Useme. Działa to w następujący sposób: Useme wystawia Tobie fakturę VAT, a ze mną rozlicza się za pomocą Umowy o Dzieło. W zamian za pośrednictwo pobiera niewielką prowizję, jednakże prowizja zostaje pobrana od mojej stawki netto. Przykład: 1000zł netto – Do zapłacenia FV = 1230zł, ja otrzymuję 861.50zł (55zł podatek PIT, 83.50zł prowizja Useme).',
+
+			['faq2-title']: 'Jak wygląda płatność i jakie przyjmujemy?',
+			['faq2-desc']:
+				'Rozliczyć z nami możesz się na wiele sposobów. Akceptujemy przelew bankowy, płatność w kryptowalutach (USDT/USDC) oraz płatność PayPal (w tym przypadku do kwoty należy doliczyć prowizję PayPal 2.9%).',
+
+			['faq3-title']:
+				'Czy otrzymam pliki strony internetowej po zakończeniu realizacji?',
+			['faq3-desc']:
+				'Tak, jeżeli chcesz utrzymać stronę we własnym zakresie jest taka możliwość. Natomiast zalecana przez nas opcja to utrzymanie witryny po naszej stronie co nic Cie nie kosztuje.',
+
+			['faq4-title']: 'Czy otrzymam pomoc w kwestii serwera/domeny?',
+			['faq4-desc']:
+				'Jeżeli posiadasz własną domenę podepniemy ci ją za darmo. Natomiast jeżeli takowej nie posiadasz możesz zakupić ją u nas. Serwer zapewniamy my, natomiast jeżeli chcesz utrzymać stronę we własnym zakresie nie jest to dla nas problem.',
+
+			['faq5-title']: 'Jakiego rodzaju strony internetowe tworzymy?',
+			['faq5-desc']:
+				'Zajmujemy się tworzeniem stron internetowych wraz z indywidualnym projektem graficznym. Strona dostosowana jest pod każde urządzenie - również mobilne. Wykonujemy strony dla firm, indywidualne, wizytówkowe, informacyjne, landing page oraz portale.',
+
+			['faq6-title']: 'Jak długo będę czekać na realizację zlecenia?',
+			['faq6-desc']:
+				'Czas oczekiwania zależny jest od naszego obłożenia oraz skomplikowania projektu. Jeżeli czas oczekiwania będzie dłuższy niż podany poinformujemy Cię o tym.',
+		},
+
 		['ContactUs']: {
 			borderTitle: 'KONTAKT',
 			mainTitle: 'Jak możesz się z nami',
