@@ -36,7 +36,7 @@ function HomePage(props) {
 				<meta name="theme-color" content="#35d26c" />
 				<meta
 					name="keywords"
-					content="TWORZENIE STRON INTERNETOWYCH, STRONY INTERNETOWE, STRONY, WEB DEVELOPMENT, WEB-DEV, WEB DEVELOPER, DEVELOPER, PROGRAMISTA, TWORZENIE STRON WWW, TWORZENIE STRON INTERNETOWYCH KOBYŁKA"
+					content="TWORZENIE STRON INTERNETOWYCH, STRONY INTERNETOWE, STRONY, WEB DEVELOPMENT, WEB-DEV, WEB DEVELOPER, DEVELOPER, PROGRAMISTA, TWORZENIE STRON WWW, TWORZENIE STRON INTERNETOWYCH KOBYŁKA, WOŁOMIN"
 				/>
 				<meta
 					name="description"
@@ -52,7 +52,7 @@ function HomePage(props) {
 				/>
 				<meta
 					property="og:image"
-					content="https://i.imgur.com/FiXHqhR.png"
+					content="https://i.imgur.com/cCaTkp3.png"
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -68,7 +68,7 @@ function HomePage(props) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://i.imgur.com/FiXHqhR.png"
+					content="https://i.imgur.com/cCaTkp3.png"
 				/>
 			</Head>
 			<div className={styles.mainDiv}>
