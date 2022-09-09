@@ -14,6 +14,7 @@ import contact from '../../../public/icons/contact.png';
 import whiteDiscord from '../../../public/icons/whiteDiscord.svg';
 import whiteFacebook from '../../../public/icons/whiteFacebook.svg';
 import whiteMail from '../../../public/icons/whiteMail.svg';
+import hover from '../../../public/background/hover.webp';
 
 //Script
 function ContactUs(props) {
@@ -191,6 +192,20 @@ function ContactUs(props) {
 												//priority={true}
 											/>
 											<span className={styles.hoverText}>
+												<div
+													className={
+														styles.hoverTextBg
+													}
+												>
+													<Image
+														src={hover}
+														alt=""
+														layout="responsive"
+														objectFit="contain"
+														quality={100}
+														//priority={true}
+													/>
+												</div>
 												<Typography>
 													{getText.clickOpen}
 												</Typography>
@@ -212,6 +227,20 @@ function ContactUs(props) {
 												//priority={true}
 											/>
 											<span className={styles.hoverText}>
+												<div
+													className={
+														styles.hoverTextBg
+													}
+												>
+													<Image
+														src={hover}
+														alt=""
+														layout="responsive"
+														objectFit="contain"
+														quality={100}
+														//priority={true}
+													/>
+												</div>
 												<Typography>
 													{getText.clickOpen}
 												</Typography>
@@ -239,6 +268,20 @@ function ContactUs(props) {
 												//priority={true}
 											/>
 											<span className={styles.hoverText}>
+												<div
+													className={
+														styles.hoverTextBg
+													}
+												>
+													<Image
+														src={hover}
+														alt=""
+														layout="responsive"
+														objectFit="contain"
+														quality={100}
+														//priority={true}
+													/>
+												</div>
 												<Typography>
 													{dcCopied === false
 														? getText.clickCopy

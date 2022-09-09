@@ -20,6 +20,7 @@ import mui from '../../../public/icons/mui.png';
 import mui2 from '../../../public/icons/mui2.png';
 import vercel from '../../../public/icons/vercel.png';
 import vercel2 from '../../../public/icons/vercel2.png';
+import landingImage from '../../../public/background/landingImage.webp';
 
 // >> Variables
 let projects = [
@@ -73,6 +74,16 @@ function Tools(props) {
 	// >> Render
 	return (
 		<div className={styles.mainDiv} id="tools">
+			<div className={styles.divBg}>
+				<Image
+					src={landingImage}
+					alt=""
+					layout="fill"
+					objectFit="cover"
+					quality={100}
+					priority={true}
+				/>
+			</div>
 			<div className={styles.insideDiv}>
 				<h2 className={globalStyles.borderText} data-aos="zoom-in-up">
 					{getText.borderTitle}

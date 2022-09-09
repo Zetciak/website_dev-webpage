@@ -1,4 +1,5 @@
 // >> Modules
+import Image from 'next/image';
 import { Typography } from '@mui/material';
 import Languages from '../../languages.js';
 import Particles from 'react-tsparticles';
@@ -8,7 +9,10 @@ import { loadFull } from 'tsparticles';
 import useStyles from './landingStyle.js';
 import useGlobalStyles from '../../globalStyle.js';
 
-//Script
+// >> Images
+import landingImage from '../../../public/background/landingImage.webp';
+
+// >> Script
 function Landing(props) {
 	// >> Variables
 	const getText = Languages[props.lang]['Hero'];
@@ -30,6 +34,16 @@ function Landing(props) {
 	// >> Render
 	return (
 		<div className={styles.mainDiv} id="start">
+			<div className={styles.divBg}>
+				<Image
+					src={landingImage}
+					alt=""
+					layout="fill"
+					objectFit="cover"
+					quality={100}
+					priority={true}
+				/>
+			</div>
 			<Particles
 				className={styles.particlesDiv}
 				width="100%"

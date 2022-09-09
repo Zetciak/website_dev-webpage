@@ -1,9 +1,6 @@
 // >> Modules
 import { makeStyles } from '@mui/styles';
 
-// >> Images
-import hover from '../../../public/background/hover.webp';
-
 // >> Styling
 const useStyles = makeStyles({
 	mainDiv: {
@@ -294,9 +291,14 @@ const useStyles = makeStyles({
 		},
 	},
 
+	hoverTextBg: {
+		width: '100%',
+		height: '100%',
+		position: 'absolute',
+		'z-index': '-1',
+	},
+
 	hoverText: {
-		background: `url(${hover.src})`,
-		backgroundSize: '100% 100%',
 		height: '38px',
 		width: '138px',
 		position: 'absolute',

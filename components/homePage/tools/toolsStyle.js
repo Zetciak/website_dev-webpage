@@ -1,9 +1,6 @@
 // >> Modules
 import { makeStyles } from '@mui/styles';
 
-// >> Images
-import landingImage from '../../../public/background/landingImage.webp';
-
 // >> Styling
 const useStyles = makeStyles({
 	mainDiv: {
@@ -12,9 +9,18 @@ const useStyles = makeStyles({
 		position: 'relative',
 		float: 'left',
 		'z-index': '5',
-		background: `url(${landingImage.src})`,
-		backgroundSize: '100% 100%',
 		marginTop: '140px',
+	},
+
+	divBg: {
+		width: '100%',
+		maxWidth: '2000px',
+		height: '123%',
+		position: 'absolute',
+		'z-index': '-1',
+		left: '50%',
+		top: '50%',
+		transform: 'translate(-50%,-50%)',
 	},
 
 	insideDiv: {
