@@ -41,7 +41,7 @@ function Landing(props) {
 							layout="responsive"
 							objectFit="contain"
 							quality={100}
-							priority={true}
+							//priority={true}
 						/>
 					</a>
 				</div>
@@ -72,7 +72,7 @@ function Landing(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</div>
 							<Typography className={styles.langName}>
@@ -93,7 +93,7 @@ function Landing(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</div>
 							<Typography className={styles.langName}>

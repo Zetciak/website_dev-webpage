@@ -98,7 +98,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle2}`}>
@@ -108,7 +108,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle3}`}>
@@ -118,7 +118,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle4}`}>
@@ -128,7 +128,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle5}`}>
@@ -138,7 +138,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle6}`}>
@@ -148,7 +148,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle7}`}>
@@ -158,7 +158,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle8}`}>
@@ -168,7 +168,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 						<div className={` ${styles.circle} ${styles.circle9}`}>
@@ -178,7 +178,7 @@ function HomePage(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 					</div>
