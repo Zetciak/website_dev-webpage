@@ -2,7 +2,7 @@
 import { makeStyles } from '@mui/styles';
 
 // >> Images
-import hover from '../../../public/background/hover.png';
+import hover from '../../../public/background/hover.webp';
 
 // >> Styling
 const useStyles = makeStyles({

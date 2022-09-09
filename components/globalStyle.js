@@ -2,7 +2,7 @@
 import { makeStyles } from '@mui/styles';
 
 // >> Images
-import bgImage from '../public/background/backgroundImage.png';
+import bgImage from '../public/background/backgroundImage.webp';
 
 // >> Styling
 const useGlobalStyles = makeStyles({
@@ -12,7 +12,7 @@ const useGlobalStyles = makeStyles({
 		position: 'relative',
 		overflow: 'hidden',
 		//background: '#272727',
-		background: `url(${bgImage.src})`,
+		background: `url(${bgImage.src}) #272727`,
 	},
 
 	pageLoader: {

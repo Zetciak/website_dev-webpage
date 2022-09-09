@@ -2,7 +2,7 @@
 import { makeStyles } from '@mui/styles';
 
 // >> Images
-import landingImage from '../../../public/background/landingImage.png';
+import landingImage from '../../../public/background/landingImage.webp';
 
 // >> Styling
 const useStyles = makeStyles({
