@@ -98,18 +98,16 @@ function Landing(props) {
 				}}
 			/>
 			<div className={styles.insideDiv} data-aos="zoom-in-up">
-				<Typography className={globalStyles.borderText}>
+				<h1 className={globalStyles.borderText}>
 					{getText.borderTitle}
-				</Typography>
-				<Typography className={globalStyles.mainTitle}>
+				</h1>
+				<h2 className={globalStyles.mainTitle}>
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
-				</Typography>
-				<Typography className={globalStyles.mainDesc}>
-					{getText.mainDesc}
-				</Typography>
+				</h2>
+				<h3 className={globalStyles.mainDesc}>{getText.mainDesc}</h3>
 			</div>
 		</div>
 	);
