@@ -1,6 +1,7 @@
 // >> Modules
 import Image from 'next/image';
 import Head from 'next/head';
+import getVariable from '../globalVariables';
 
 // >> Styles
 import useStyles from './homePageStyle';
@@ -31,46 +32,62 @@ function HomePage(props) {
 	return (
 		<>
 			<Head>
-				<title>Web-Dev</title>
+				<title>{getVariable['texts']['pageTitle']}</title>
 				<meta charSet="utf-8" />
-				<meta name="theme-color" content="#35d26c" />
+				<meta
+					name="theme-color"
+					content={getVariable['colors']['pageMainColor']}
+				/>
 				<meta
 					name="keywords"
-					content="TWORZENIE STRON INTERNETOWYCH, STRONY INTERNETOWE, STRONY, WEB DEVELOPMENT, WEB-DEV, WEB DEVELOPER, DEVELOPER, PROGRAMISTA, TWORZENIE STRON WWW, TWORZENIE STRON INTERNETOWYCH KOBYŁKA, WOŁOMIN"
+					content={getVariable['texts']['pageTags']}
 				/>
 				<meta
 					name="description"
-					content="Tworzymy nowoczesne strony internetowe dostosowane pod twoje oczekiwania. Dwuosobowy zespół grafika oraz programisty zaprasza do kontaktu."
+					content={getVariable['texts']['pageDesc']}
 				/>
 
-				<meta property="og:url" content="https://website-dev.pl/" />
+				<meta
+					property="og:url"
+					content={`https://${getVariable['texts']['pageLink']}/`}
+				/>
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Web-Dev" />
+				<meta
+					property="og:title"
+					content={getVariable['texts']['pageTitle']}
+				/>
 				<meta
 					property="og:description"
-					content="Tworzymy nowoczesne strony internetowe dostosowane pod twoje oczekiwania. Dwuosobowy zespół grafika oraz programisty zaprasza do kontaktu."
+					content={getVariable['texts']['pageDesc']}
 				/>
 				<meta
 					property="og:image"
-					content="https://i.imgur.com/cCaTkp3.png"
+					content={getVariable['texts']['pageImage']}
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta property="twitter:domain" content="website-dev.pl" />
+				<meta
+					property="twitter:domain"
+					content={getVariable['texts']['pageLink']}
+				/>
 				<meta
 					property="twitter:url"
-					content="https://website-dev.pl/"
+					content={`https://${getVariable['texts']['pageLink']}/`}
 				/>
-				<meta name="twitter:title" content="Web-Dev" />
+				<meta
+					name="twitter:title"
+					content={getVariable['texts']['pageTitle']}
+				/>
 				<meta
 					name="twitter:description"
-					content="Tworzymy nowoczesne strony internetowe dostosowane pod twoje oczekiwania. Dwuosobowy zespół grafika oraz programisty zaprasza do kontaktu."
+					content={getVariable['texts']['pageDesc']}
 				/>
 				<meta
 					name="twitter:image"
-					content="https://i.imgur.com/cCaTkp3.png"
+					content={getVariable['texts']['pageImage']}
 				/>
 			</Head>
+
 			<div className={styles.mainDiv}>
 				<div className={styles.bgDiv}>
 					<div className={styles.bgDivInside}>
