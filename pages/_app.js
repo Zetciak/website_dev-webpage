@@ -17,6 +17,20 @@ function MyApp({ Component, pageProps }) {
 	// >> Render
 	return (
 		<>
+			<Script
+				strategy="lazyOnload"
+				src={`https://www.googletagmanager.com/gtag/js?id=G-C6HL3658EW`}
+			/>
+
+			<Script id="google" strategy="lazyOnload">
+				{`
+            window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+		  
+			gtag('config', 'G-C6HL3658EW');
+                `}
+			</Script>
 			<div>
 				<CssBaseline />
 				<Component {...pageProps} />
