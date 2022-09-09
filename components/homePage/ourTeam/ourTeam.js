@@ -46,7 +46,7 @@ function OurTeam(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</div>
 						</div>
@@ -71,7 +71,7 @@ function OurTeam(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</a>
 							<Typography className={styles.descText}>
@@ -89,7 +89,7 @@ function OurTeam(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</div>
 						</div>
@@ -114,7 +114,7 @@ function OurTeam(props) {
 									layout="responsive"
 									objectFit="contain"
 									quality={100}
-									priority={true}
+									//priority={true}
 								/>
 							</a>
 							<Typography className={styles.descText}>

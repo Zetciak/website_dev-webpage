@@ -104,7 +104,7 @@ function Tools(props) {
 										layout="responsive"
 										objectFit="contain"
 										quality={100}
-										priority={true}
+										//priority={true}
 									/>
 								</div>
 								<div className="coloredLogo">
@@ -114,7 +114,7 @@ function Tools(props) {
 										layout="responsive"
 										objectFit="contain"
 										quality={100}
-										priority={true}
+										//priority={true}
 									/>
 								</div>
 							</a>

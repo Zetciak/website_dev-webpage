@@ -1,6 +1,9 @@
 // >> Modules
 import { makeStyles } from '@mui/styles';
 
+// >> Images
+import landingImage from '../../../public/background/landingImage.png';
+
 // >> Styling
 const useStyles = makeStyles({
 	mainDiv: {
@@ -9,7 +12,7 @@ const useStyles = makeStyles({
 		position: 'relative',
 		float: 'left',
 		'z-index': '5',
-		background: 'url(https://i.imgur.com/HGv0jYL.png)',
+		background: `url(${landingImage.src})`,
 		backgroundSize: '100% 100%',
 	},
 

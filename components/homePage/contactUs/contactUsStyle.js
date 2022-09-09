@@ -1,6 +1,9 @@
 // >> Modules
 import { makeStyles } from '@mui/styles';
 
+// >> Images
+import hover from '../../../public/background/hover.png';
+
 // >> Styling
 const useStyles = makeStyles({
 	mainDiv: {
@@ -292,7 +295,7 @@ const useStyles = makeStyles({
 	},
 
 	hoverText: {
-		background: 'url(https://i.imgur.com/Fvviu3I.png)',
+		background: `url(${hover.src})`,
 		backgroundSize: '100% 100%',
 		height: '38px',
 		width: '138px',

@@ -1,6 +1,9 @@
 // >> Modules
 import { makeStyles } from '@mui/styles';
 
+// >> Images
+import bgImage from '../public/background/backgroundImage.png';
+
 // >> Styling
 const useGlobalStyles = makeStyles({
 	container: {
@@ -9,7 +12,7 @@ const useGlobalStyles = makeStyles({
 		position: 'relative',
 		overflow: 'hidden',
 		//background: '#272727',
-		background: 'url(https://i.imgur.com/rDrCN72.png)',
+		background: `url(${bgImage.src})`,
 	},
 
 	pageLoader: {

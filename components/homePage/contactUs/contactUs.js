@@ -188,7 +188,7 @@ function ContactUs(props) {
 												layout="responsive"
 												objectFit="contain"
 												quality={100}
-												priority={true}
+												//priority={true}
 											/>
 											<span className={styles.hoverText}>
 												<Typography>
@@ -209,7 +209,7 @@ function ContactUs(props) {
 												layout="responsive"
 												objectFit="contain"
 												quality={100}
-												priority={true}
+												//priority={true}
 											/>
 											<span className={styles.hoverText}>
 												<Typography>
@@ -236,7 +236,7 @@ function ContactUs(props) {
 												layout="responsive"
 												objectFit="contain"
 												quality={100}
-												priority={true}
+												//priority={true}
 											/>
 											<span className={styles.hoverText}>
 												<Typography>
@@ -257,7 +257,7 @@ function ContactUs(props) {
 								layout="responsive"
 								objectFit="contain"
 								quality={100}
-								priority={true}
+								//priority={true}
 							/>
 						</div>
 					</div>
