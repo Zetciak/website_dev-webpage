@@ -81,7 +81,7 @@ function Tools(props) {
 					layout="fill"
 					objectFit="cover"
 					quality={100}
-					priority={true}
+					//priority={true}
 				/>
 			</div>
 			<div className={styles.insideDiv}>
