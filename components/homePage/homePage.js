@@ -32,59 +32,54 @@ function HomePage(props) {
 	return (
 		<>
 			<Head>
-				<title>{getVariable['texts']['pageTitle']}</title>
+				<title>{getVariable[props.lang]['pageTitle']}</title>
 				<meta charSet="utf-8" />
 				<meta
 					name="theme-color"
 					content={getVariable['colors']['pageMainColor']}
 				/>
 				<meta
-					name="keywords"
-					content={getVariable['texts']['pageTags']}
-				/>
-				<meta
 					name="description"
-					content={getVariable['texts']['pageDesc']}
+					content={getVariable[props.lang]['pageDesc']}
 				/>
-
 				<meta
 					property="og:url"
-					content={`https://${getVariable['texts']['pageLink']}/`}
+					content={`https://${getVariable[props.lang]['pageLink']}/`}
 				/>
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:title"
-					content={getVariable['texts']['pageTitle']}
+					content={getVariable[props.lang]['pageTitle']}
 				/>
 				<meta
 					property="og:description"
-					content={getVariable['texts']['pageDesc']}
+					content={getVariable[props.lang]['pageDesc']}
 				/>
 				<meta
 					property="og:image"
-					content="https://i.imgur.com/cCaTkp3.png"
+					content={getVariable[props.lang]['pageImage']}
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta
 					property="twitter:domain"
-					content={getVariable['texts']['pageLink']}
+					content={getVariable[props.lang]['pageLink']}
 				/>
 				<meta
 					property="twitter:url"
-					content={`https://${getVariable['texts']['pageLink']}/`}
+					content={`https://${getVariable[props.lang]['pageLink']}/`}
 				/>
 				<meta
 					name="twitter:title"
-					content={getVariable['texts']['pageTitle']}
+					content={getVariable[props.lang]['pageTitle']}
 				/>
 				<meta
 					name="twitter:description"
-					content={getVariable['texts']['pageDesc']}
+					content={getVariable[props.lang]['pageDesc']}
 				/>
 				<meta
 					name="twitter:image"
-					content="https://i.imgur.com/cCaTkp3.png"
+					content={getVariable[props.lang]['pageImage']}
 				/>
 			</Head>
 

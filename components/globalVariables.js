@@ -1,13 +1,19 @@
 // >> Variables
 const getVariable = {
-	['texts']: {
+	['PL']: {
 		pageTitle:
 			'website-dev.pl - Tworzenie nowoczesnych stron internetowych',
 		pageDesc:
 			'Front-end developer & Junior UI/UX Designer, Tworzenie nowoczesnych stron internetowych w atrakcyjnych cenach. Zapoznaj się z naszą ofertą!',
 		pageImage: 'https://i.imgur.com/cCaTkp3.png',
-		pageTags:
-			'TWORZENIE STRON INTERNETOWYCH, STRONY INTERNETOWE, STRONY, WEB DEVELOPMENT, WEB-DEV, WEB DEVELOPER, DEVELOPER, PROGRAMISTA, TWORZENIE STRON WWW, TWORZENIE STRON INTERNETOWYCH KOBYŁKA, WOŁOMIN',
+		pageLink: 'website-dev.pl',
+	},
+
+	['ENG']: {
+		pageTitle: 'website-dev.pl - Creating modern websites',
+		pageDesc:
+			'Front-end developer & Junior UI / UX Designer, Creating modern websites at attractive prices. Check out our offer!',
+		pageImage: 'https://i.imgur.com/cCaTkp3.png',
 		pageLink: 'website-dev.pl',
 	},
 
