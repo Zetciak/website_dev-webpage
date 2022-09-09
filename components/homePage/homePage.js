@@ -62,7 +62,7 @@ function HomePage(props) {
 				/>
 				<meta
 					property="og:image"
-					content={getVariable['texts']['pageImage']}
+					content="https://i.imgur.com/cCaTkp3.png"
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -84,7 +84,7 @@ function HomePage(props) {
 				/>
 				<meta
 					name="twitter:image"
-					content={getVariable['texts']['pageImage']}
+					content="https://i.imgur.com/cCaTkp3.png"
 				/>
 			</Head>
 
