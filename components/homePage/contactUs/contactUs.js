@@ -74,27 +74,18 @@ function ContactUs(props) {
 	return (
 		<div className={styles.mainDiv} id="contact">
 			<div className={styles.insideDiv}>
-				<Typography
-					className={globalStyles.borderText}
-					data-aos="zoom-in-up"
-				>
+				<h2 className={globalStyles.borderText} data-aos="zoom-in-up">
 					{getText.borderTitle}
-				</Typography>
-				<Typography
-					className={globalStyles.mainTitle}
-					data-aos="zoom-in-up"
-				>
+				</h2>
+				<h3 className={globalStyles.mainTitle} data-aos="zoom-in-up">
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
-				</Typography>
-				<Typography
-					className={globalStyles.mainDesc}
-					data-aos="zoom-in-up"
-				>
+				</h3>
+				<h4 className={globalStyles.mainDesc} data-aos="zoom-in-up">
 					{getText.mainDesc}
-				</Typography>
+				</h4>
 				<div className={styles.contactForm} data-aos="zoom-in-up">
 					<div className={styles.insideContactForm}>
 						<div className={styles.leftSection}>

@@ -27,21 +27,15 @@ function OurOffer(props) {
 	return (
 		<div className={styles.mainDiv} id="offer">
 			<div className={styles.insideDiv}>
-				<Typography
-					className={globalStyles.borderText}
-					data-aos="zoom-in-up"
-				>
+				<h2 className={globalStyles.borderText} data-aos="zoom-in-up">
 					{getText.borderTitle}
-				</Typography>
-				<Typography
-					className={globalStyles.mainTitle}
-					data-aos="zoom-in-up"
-				>
+				</h2>
+				<h3 className={globalStyles.mainTitle} data-aos="zoom-in-up">
 					{getText.mainTitle}{' '}
 					<span className={globalStyles.greenText}>
 						{getText.mainTitleGreen}
 					</span>
-				</Typography>
+				</h3>
 
 				<div className={styles.offerDiv}>
 					<div className={styles.oneOffer} data-aos="zoom-in-up">
