@@ -9,7 +9,22 @@ export default class MyDocument extends Document {
 	render() {
 		return (
 			<Html lang="en">
-				<Head></Head>
+				<Head>
+					<Script
+						strategy="lazyOnload"
+						src={`https://www.googletagmanager.com/gtag/js?id=G-C6HL3658EW`}
+					/>
+
+					<Script id="google" strategy="lazyOnload">
+						{`
+            window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+		  
+			gtag('config', 'G-C6HL3658EW');
+                `}
+					</Script>
+				</Head>
 				<body>
 					<Main />
 					<NextScript />
