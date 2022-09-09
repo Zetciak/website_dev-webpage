@@ -13,7 +13,7 @@ const getVariable = {
 		pageTitle: 'website-dev.pl - Creating modern websites',
 		pageDesc:
 			'Front-end developer & Junior UI / UX Designer, Creating modern websites at attractive prices. Check out our offer!',
-		pageImage: 'https://i.imgur.com/cCaTkp3.png',
+		pageImage: 'https://i.imgur.com/dWlrcmA.png',
 		pageLink: 'website-dev.pl',
 	},
 
