@@ -35,7 +35,7 @@ const Languages = {
 			mainTitle: 'Krótko o',
 			mainTitleGreen: 'nas',
 
-			maciekRole: 'Junior UI/UX Designer',
+			maciekRole: 'UI/UX Designer',
 			maciekName: 'Maciek Stradowski',
 			maciekDesc:
 				'Grafiką zajmuję się od 2017 roku z przerwami, od około półtora roku robię to na codzień. Zaczynając od prostych grafik na YouTube, kończąc aktualnie na projektach stron, lub aplikacji. Tworzę nowoczesne strony dla firm z wszelakich branży. Głównie tworzę projekty w Figmie.',
@@ -314,7 +314,7 @@ const Languages = {
 			mainTitle: 'Briefly about',
 			mainTitleGreen: 'us',
 
-			maciekRole: 'Junior UI/UX Designer',
+			maciekRole: 'UI/UX Designer',
 			maciekName: 'Maciek Stradowski',
 			maciekDesc:
 				'I have been dealing with graphics since 2017, for about a year and a half I have been doing it daily. Starting with simple YouTube graphics, ending with website & application designs. I create modern websites for companies from all industries. I mainly create projects in Figma.',
