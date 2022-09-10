@@ -23,8 +23,10 @@ import nftBlueprintLogo from '../../../public/projects/nftBlueprintLogo.png';
 import nftBlueprintBanner from '../../../public/projects/nftBlueprintBanner.png';
 import omniteLogo from '../../../public/projects/omniteLogo.png';
 import omniteBanner from '../../../public/projects/omniteBanner.png';
-import farmNftLogo from '../../../public/projects/farmNftLogo.png';
-import farmNftBanner from '../../../public/projects/farmNftBanner.png';
+import wofLogo from '../../../public/projects/wofLogo.png';
+import wofBanner from '../../../public/projects/wofBanner.png';
+import listenLogo from '../../../public/projects/listenLogo.png';
+import listenBanner from '../../../public/projects/listenBanner.png';
 import hookAndRoodLogo from '../../../public/projects/hookAndRoodLogo.png';
 import hookAndRoodBanner from '../../../public/projects/hookAndRoodBanner.png';
 import metaweb3PadLogo from '../../../public/projects/metaweb3PadLogo.png';
@@ -50,6 +52,72 @@ let projects = [
 		days: 'realizationDays',
 	},
 	{
+		name: 'Stargaze',
+		start: '15.06.2022',
+		end: '20.06.2022',
+		time: 5,
+		logo: stargazeLogo,
+		banner: stargazeBanner,
+		type: 'project',
+		link: 'https://www.behance.net/gallery/150385403/Stargaze-Website-UIUX',
+		days: 'realizationDays',
+	},
+	{
+		name: 'Crappo',
+		start: '01.08.2022',
+		end: '04.08.2022',
+		time: 3,
+		logo: crappoLogo,
+		banner: crappoBanner,
+		type: 'web',
+		link: 'https://zetty-crappo.vercel.app/',
+		days: 'realizationDays',
+	},
+	{
+		name: 'SinceRPG Roulette',
+		start: '16.12.2021',
+		end: '18.12.2021',
+		time: 2,
+		logo: sinceLogo,
+		banner: sinceBanner,
+		type: 'project',
+		link: 'https://www.behance.net/gallery/132583637/CASINO-ROULETTE-for-MTASA-SINCERPG',
+		days: 'realizationDays',
+	},
+	{
+		name: 'Sphinx - Menu',
+		start: '22.03.2022',
+		end: '23.03.2022',
+		time: 1,
+		logo: sphinxLogo,
+		banner: sphinxBanner,
+		type: 'project',
+		link: 'https://www.behance.net/gallery/120612353/Restaurant-menu',
+		days: 'realizationDay',
+	},
+	{
+		name: 'World Of Farms',
+		start: '30.08.2022',
+		end: '03.09.2022',
+		time: 4,
+		logo: wofLogo,
+		banner: wofBanner,
+		type: 'web',
+		link: 'https://farmos-zetty.vercel.app/',
+		days: 'realizationDays',
+	},
+	{
+		name: 'ListenX',
+		start: '05.08.2022',
+		end: '07.09.2022',
+		time: 2,
+		logo: listenLogo,
+		banner: listenBanner,
+		type: 'web',
+		link: 'https://listenx-zetty.vercel.app/',
+		days: 'realizationDays',
+	},
+	{
 		name: 'Loopy Loris Tribe',
 		start: '10.06.2022',
 		end: '20.06.2022',
@@ -71,17 +139,7 @@ let projects = [
 		link: 'https://zetty-omnite.vercel.app/',
 		days: 'realizationDays',
 	},
-	{
-		name: 'Crappo',
-		start: '01.08.2022',
-		end: '04.08.2022',
-		time: 3,
-		logo: crappoLogo,
-		banner: crappoBanner,
-		type: 'web',
-		link: 'https://zetty-crappo.vercel.app/',
-		days: 'realizationDays',
-	},
+
 	{
 		name: 'Cosmo Band',
 		start: '08.06.2022',
@@ -115,17 +173,7 @@ let projects = [
 		link: 'https://zetty-foo.vercel.app/',
 		days: 'realizationDay',
 	},
-	{
-		name: 'Stargaze',
-		start: '15.06.2022',
-		end: '20.06.2022',
-		time: 5,
-		logo: stargazeLogo,
-		banner: stargazeBanner,
-		type: 'project',
-		link: 'https://www.behance.net/gallery/150385403/Stargaze-Website-UIUX',
-		days: 'realizationDays',
-	},
+
 	{
 		name: 'Hook & Rod',
 		start: '11.11.2021',
@@ -147,28 +195,6 @@ let projects = [
 		type: 'project',
 		link: 'https://www.behance.net/gallery/150385069/Meta3GOLD-Website-UI-UX',
 		days: 'realizationDays',
-	},
-	{
-		name: 'SinceRPG Roulette',
-		start: '16.12.2021',
-		end: '18.12.2021',
-		time: 2,
-		logo: sinceLogo,
-		banner: sinceBanner,
-		type: 'project',
-		link: 'https://www.behance.net/gallery/132583637/CASINO-ROULETTE-for-MTASA-SINCERPG',
-		days: 'realizationDays',
-	},
-	{
-		name: 'Sphinx - Menu',
-		start: '22.03.2022',
-		end: '23.03.2022',
-		time: 1,
-		logo: sphinxLogo,
-		banner: sphinxBanner,
-		type: 'project',
-		link: 'https://www.behance.net/gallery/120612353/Restaurant-menu',
-		days: 'realizationDay',
 	},
 ];
 

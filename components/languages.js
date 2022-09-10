@@ -198,6 +198,12 @@ const Languages = {
 
 			['Stargaze-Desc']:
 				"Projekt UI/UX Landing page'a dla NFT Launchpad'u, oraz marketplace'u Stargaze.zone.",
+
+			['World Of Farms-Desc']:
+				'Projekt oraz strona poświęcona grze World Of Farms.',
+
+			['ListenX-Desc']:
+				'Projekt oraz strona poświęcona aplikacji typo use2Earn - ListenX',
 		},
 
 		['Tools']: {
@@ -470,6 +476,12 @@ const Languages = {
 
 			['Stargaze-Desc']:
 				'UI / UX Landing page project for NFT Launchpad and Stargaze.zone marketplace.',
+
+			['World Of Farms-Desc']:
+				'Project and website dedicated to the game World Of Farms.',
+
+			['ListenX-Desc']:
+				'Design and website dedicated to use2Earn app - ListenX',
 		},
 
 		['Tools']: {

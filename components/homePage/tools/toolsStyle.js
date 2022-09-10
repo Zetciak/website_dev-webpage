@@ -8,7 +8,7 @@ const useStyles = makeStyles({
 		height: '802px',
 		position: 'relative',
 		float: 'left',
-		'z-index': '5',
+		'z-index': '4',
 		marginTop: '140px',
 	},
 
@@ -21,6 +21,7 @@ const useStyles = makeStyles({
 		left: '50%',
 		top: '50%',
 		transform: 'translate(-50%,-50%)',
+		pointerEvents: 'none',
 	},
 
 	insideDiv: {
