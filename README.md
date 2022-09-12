@@ -1,5 +1,5 @@
 ## Info
-website-dev webpage
+Website-dev webpage
 
 ## Demo
 https://website-dev.pl/
