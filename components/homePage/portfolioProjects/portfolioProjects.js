@@ -103,7 +103,7 @@ let projects = [
 		logo: wofLogo,
 		banner: wofBanner,
 		type: 'web',
-		link: 'https://farmos-zetty.vercel.app/',
+		link: 'https://worldoffarms.io/',
 		days: 'realizationDays',
 	},
 	{
